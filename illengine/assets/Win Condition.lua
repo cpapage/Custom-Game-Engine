@@ -1,0 +1,3 @@
+local entity = ...
+player = GetPlayer()
+if Collides(entity, player) then Victory() end
